@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Disclaimer — Hearth & Table</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<nav class="nav" id="mainNav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">Hearth <span>&</span> Table</a>
+    <div class="nav__links">
+      <a href="index.html" class="nav__link" data-page="index.html">Home</a>
+      <a href="index.html#recipes" class="nav__link">Recipes</a>
+      <a href="about.html" class="nav__link" data-page="about.html">About</a>
+      <a href="contact.html" class="nav__link" data-page="contact.html">Contact</a>
+    </div>
+    <button class="btn btn--terracotta nav__cta" data-modal="lead" data-context="Join Free">Join Free</button>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav__mobile" id="mobileNav">
+  <button class="nav__mobile-close" id="mobileClose">✕</button>
+  <a href="index.html" class="nav__link">Home</a>
+  <a href="about.html" class="nav__link">About</a>
+  <a href="contact.html" class="nav__link">Contact</a>
+</div>
+
+<div class="legal-content">
+  <h1>Disclaimer</h1>
+  <p class="last-updated">Last updated: March 23, 2026</p>
+
+  <p>The information provided on hearthandtable.site by Hearth & Table is for general informational and entertainment purposes only. While we make every effort to ensure accuracy, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, or suitability of the content on this website.</p>
+
+  <h2>1. Recipe Results</h2>
+  <p>All recipes on Hearth & Table are developed and tested in our home kitchens. However, individual cooking results may vary significantly based on factors including but not limited to:</p>
+  <ul>
+    <li>Ingredient brands, freshness, and quality</li>
+    <li>Oven and stovetop calibration and heat distribution</li>
+    <li>Altitude and humidity at your location</li>
+    <li>Personal measuring techniques (volume vs. weight)</li>
+    <li>Substitutions made by the cook</li>
+  </ul>
+  <p>We cannot guarantee that any recipe will produce identical results in every kitchen. We encourage you to use your judgment and adjust recipes as needed.</p>
+
+  <h2>2. Nutritional Information</h2>
+  <p>Nutritional information provided on this website is calculated using standard food databases and is intended as a general estimate only. These figures should not be used as a substitute for professional nutritional advice. Actual nutritional content may vary based on specific ingredients, brands, and preparation methods used.</p>
+  <p>If you have specific dietary needs, food allergies, or medical conditions that require precise nutritional tracking, please consult a registered dietitian or healthcare professional before relying on the information provided here.</p>
+
+  <h2>3. Food Safety</h2>
+  <p>Hearth & Table follows standard food safety guidelines in recipe development. However, we strongly encourage all users to:</p>
+  <ul>
+    <li>Follow USDA recommended safe internal cooking temperatures</li>
+    <li>Properly store, refrigerate, and handle all food items</li>
+    <li>Wash hands and surfaces thoroughly before and during cooking</li>
+    <li>Discard any food that appears or smells spoiled</li>
+    <li>Consult food safety authorities (FDA, USDA) for up-to-date guidelines</li>
+  </ul>
+
+  <h2>4. Allergy Information</h2>
+  <p>While we include common allergen information in our recipes, Hearth & Table cannot guarantee that any recipe is free from allergens due to variations in ingredient brands and potential cross-contamination during manufacturing. Individuals with severe food allergies should always verify ingredients independently and consult their physician before trying new recipes.</p>
+
+  <h2>5. External Links</h2>
+  <p>Our website may contain links to external websites. These links are provided for convenience and informational purposes only. Hearth & Table has no control over the content, accuracy, or practices of external sites and accepts no liability for any loss or damage arising from your use of them.</p>
+
+  <h2>6. Affiliate Disclosure</h2>
+  <p>Some links on hearthandtable.site may be affiliate links. This means we may earn a small commission at no additional cost to you if you click through and make a purchase. We only recommend products we genuinely use and trust. Our editorial content is never influenced by affiliate relationships.</p>
+
+  <h2>7. Professional Advice</h2>
+  <p>Nothing on this website constitutes professional medical, nutritional, dietary, or therapeutic advice. Always seek the guidance of a qualified professional with any questions you may have regarding a medical condition, dietary restriction, or health-related concern.</p>
+
+  <h2>8. Limitation of Liability</h2>
+  <p>In no event shall Hearth & Table, its officers, directors, employees, or agents be liable for any direct, indirect, incidental, special, or consequential damages arising from the use of, or inability to use, any recipe, content, or information on this website.</p>
+
+  <h2>9. Contact</h2>
+  <p>If you have questions about this Disclaimer, contact us at <a href="mailto:hello@hearthandtable.site">hello@hearthandtable.site</a> or call (888) 347-9210.</p>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__bottom" style="border-top:1px solid rgba(255,255,255,0.08);padding-top:1.5rem">
+      <p class="footer__copy">© 2026 Hearth & Table. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="privacy-policy.html" class="footer__legal-link">Privacy Policy</a>
+        <a href="terms-conditions.html" class="footer__legal-link">Terms & Conditions</a>
+        <a href="disclaimer.html" class="footer__legal-link">Disclaimer</a>
+        <a href="cookie-policy.html" class="footer__legal-link">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="modal-overlay" id="leadModal"><div class="modal"><button class="modal__close" id="modalClose">✕</button><div id="formContent"><div class="modal__icon">🍳</div><h2 class="modal__title" id="modalTitle">Join Hearth & Table</h2><p class="modal__sub">Get instant access to thousands of tested recipes.</p><form id="leadForm" novalidate><div class="form-group"><label for="formName">Full Name *</label><input type="text" id="formName" placeholder="Jane Smith" required /></div><div class="form-group"><label for="formEmail">Email Address *</label><input type="email" id="formEmail" placeholder="jane@example.com" required /></div><div class="form-group"><label for="formPhone">Phone Number *</label><input type="tel" id="formPhone" placeholder="(555) 000-0000" required /></div><div class="form-group"><label for="formMessage">Message</label><textarea id="formMessage" placeholder="Any questions?"></textarea></div><label class="form-consent"><input type="checkbox" id="formConsent" required /> I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and <a href="terms-conditions.html" target="_blank">Terms & Conditions</a>.</label><button type="submit" class="btn btn--terracotta btn--lg form-submit">Get Free Access →</button></form></div><div class="success-message" id="successMessage"><div class="success-message__icon">🎉</div><h3 class="success-message__title">Welcome!</h3><p class="success-message__text">You're all set.</p></div></div></div>
+<div class="cookie-banner" id="cookieBanner"><div class="cookie-banner__inner"><p class="cookie-banner__text">We use cookies. See our <a href="cookie-policy.html">Cookie Policy</a>.</p><div class="cookie-banner__actions"><button class="cookie-btn cookie-btn--decline" id="cookieDecline">Decline</button><button class="cookie-btn cookie-btn--accept" id="cookieAccept">Accept Cookies</button></div></div></div>
+<script src="js/script.js"></script>
+</body>
+</html>

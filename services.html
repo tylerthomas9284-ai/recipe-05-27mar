@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Hearth & Table</title>
+  <meta name="description" content="Explore Hearth & Table's premium services including meal planning, virtual cooking classes, personalized recipe collections, and corporate catering consulting." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="nav" id="mainNav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">Hearth <span>&</span> Table</a>
+    <div class="nav__links">
+      <a href="index.html" class="nav__link" data-page="index.html">Home</a>
+      <a href="index.html#recipes" class="nav__link">Recipes</a>
+      <a href="index.html#cuisines" class="nav__link">Cuisines</a>
+      <a href="about.html" class="nav__link" data-page="about.html">About</a>
+      <a href="contact.html" class="nav__link" data-page="contact.html">Contact</a>
+    </div>
+    <button class="btn btn--terracotta nav__cta" data-modal="lead" data-context="Join Free">Join Free</button>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav__mobile" id="mobileNav">
+  <button class="nav__mobile-close" id="mobileClose">✕</button>
+  <a href="index.html" class="nav__link">Home</a>
+  <a href="index.html#recipes" class="nav__link">Recipes</a>
+  <a href="index.html#cuisines" class="nav__link">Cuisines</a>
+  <a href="about.html" class="nav__link">About</a>
+  <a href="contact.html" class="nav__link">Contact</a>
+  <button class="btn btn--terracotta" data-modal="lead" data-context="Join Free" style="margin-top:1rem;width:100%;justify-content:center">Join Free</button>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero__content container">
+    <div class="page-hero__eyebrow">What We Offer</div>
+    <h1 class="page-hero__title">More Than Just Recipes</h1>
+    <p class="page-hero__sub">Premium cooking services designed for home cooks who want to go further — from personalized meal plans to live instruction from professional chefs.</p>
+  </div>
+</section>
+
+<!-- Services Grid -->
+<section class="section section--white">
+  <div class="container">
+    <div class="section__header section__header--center fade-up">
+      <div class="section__eyebrow">Core Services</div>
+      <h2 class="section__title">Everything Your Kitchen Needs</h2>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card fade-up">
+        <div class="service-card__icon">📅</div>
+        <h3 class="service-card__title">Weekly Meal Planning</h3>
+        <p class="service-card__text">Tell us your dietary preferences, household size, and weekly budget — we'll generate a fully personalized meal plan with a ready-to-shop grocery list. Updated every Sunday, automatically.</p>
+        <br/>
+        <button class="btn btn--terracotta" data-modal="lead" data-context="Subscribe">Get My Meal Plan</button>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-card__icon">🎥</div>
+        <h3 class="service-card__title">Live Virtual Cooking Classes</h3>
+        <p class="service-card__text">Join interactive live sessions led by our professional chef team. Classes cover everything from knife skills and sauce fundamentals to advanced pastry techniques. Groups of 4–20 participants.</p>
+        <br/>
+        <button class="btn btn--terracotta" data-modal="lead" data-context="Subscribe">Book a Class</button>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-card__icon">📖</div>
+        <h3 class="service-card__title">Custom Recipe Collections</h3>
+        <p class="service-card__text">Our culinary team hand-curates a personal recipe collection based on your taste profile, dietary needs, and cooking skill level. Updated monthly with seasonal picks and new releases.</p>
+        <br/>
+        <button class="btn btn--terracotta" data-modal="lead" data-context="Subscribe">Build My Collection</button>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-card__icon">🍷</div>
+        <h3 class="service-card__title">Wine & Food Pairing Guides</h3>
+        <p class="service-card__text">Exclusive pairing guides written by certified sommeliers and our chef team. Each guide covers varietal profiles, regional pairings, and specific bottle recommendations under $25.</p>
+        <br/>
+        <button class="btn btn--outline" data-modal="lead" data-context="Subscribe">Access Pairing Guides</button>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-card__icon">🏢</div>
+        <h3 class="service-card__title">Corporate Team Events</h3>
+        <p class="service-card__text">Turn your next team-building event into a memorable cooking experience. We offer virtual and in-person cooking challenges, tasting events, and culinary workshops for groups of 10–500.</p>
+        <br/>
+        <button class="btn btn--outline" data-modal="lead" data-context="Subscribe">Inquire About Corporate</button>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-card__icon">🤝</div>
+        <h3 class="service-card__title">1-on-1 Cooking Coaching</h3>
+        <p class="service-card__text">Work directly with one of our professional chefs in a dedicated 60-minute session. Perfect for mastering a specific technique, troubleshooting a failing recipe, or planning a dinner party menu.</p>
+        <br/>
+        <button class="btn btn--outline" data-modal="lead" data-context="Subscribe">Book a Session</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Spotlight: Meal Planning -->
+<section class="section section--mid">
+  <div class="container">
+    <div class="spotlight fade-up">
+      <div class="spotlight__image">
+        <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&q=85&fit=crop" alt="Meal planning" />
+      </div>
+      <div class="spotlight__content">
+        <div class="spotlight__eyebrow">Featured Service</div>
+        <h3 class="spotlight__title">The Smarter Way to Plan Your Week</h3>
+        <p class="spotlight__desc">Our AI-assisted meal planner learns your preferences over time and generates weekly menus that reduce food waste, save money, and keep dinner exciting. Integrated shopping lists sync directly with your pantry.</p>
+        <div class="spotlight__stats">
+          <div class="spotlight__stat"><span class="spotlight__stat-val">40%</span><span class="spotlight__stat-label">Less Food Waste</span></div>
+          <div class="spotlight__stat"><span class="spotlight__stat-val">$120</span><span class="spotlight__stat-label">Avg Monthly Savings</span></div>
+          <div class="spotlight__stat"><span class="spotlight__stat-val">5 min</span><span class="spotlight__stat-label">Setup Time</span></div>
+        </div>
+        <button class="btn btn--terracotta btn--lg" data-modal="lead" data-context="Subscribe">Start Meal Planning</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section" style="background:var(--olive);text-align:center;padding:4rem 0">
+  <div class="container fade-up">
+    <h2 style="font-family:var(--font-serif);font-size:2rem;color:var(--white);margin-bottom:1rem">Not Sure Where to Start?</h2>
+    <p style="color:rgba(255,255,255,0.8);font-size:1.0625rem;margin-bottom:2rem;max-width:480px;margin-left:auto;margin-right:auto">Tell us a little about your cooking goals and we'll recommend the right service for you — no commitment required.</p>
+    <button class="btn btn--ghost btn--lg" data-modal="lead" data-context="Subscribe">Talk to Our Team</button>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__logo-name">Hearth <span>&</span> Table</div>
+        <p class="footer__tagline">Real Recipes. Real Kitchens. Real Good.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">📸</a>
+          <a href="#" class="footer__social-link">📌</a>
+          <a href="#" class="footer__social-link">f</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__col-title">Recipes</h4>
+        <ul class="footer__links">
+          <li><a href="index.html#recipes" class="footer__link">All Recipes</a></li>
+          <li><a href="index.html#cuisines" class="footer__link">By Cuisine</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__col-title">Company</h4>
+        <ul class="footer__links">
+          <li><a href="about.html" class="footer__link">About Us</a></li>
+          <li><a href="services.html" class="footer__link">Services</a></li>
+          <li><a href="contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__col-title">Contact</h4>
+        <div class="footer__contact-item"><span class="footer__contact-icon">📞</span><div class="footer__contact-text">(888) 347-9210</div></div>
+        <div class="footer__contact-item"><span class="footer__contact-icon">✉️</span><div class="footer__contact-text">hello@hearthandtable.site</div></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2026 Hearth & Table. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="privacy-policy.html" class="footer__legal-link">Privacy Policy</a>
+        <a href="terms-conditions.html" class="footer__legal-link">Terms & Conditions</a>
+        <a href="disclaimer.html" class="footer__legal-link">Disclaimer</a>
+        <a href="cookie-policy.html" class="footer__legal-link">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="leadModal">
+  <div class="modal">
+    <button class="modal__close" id="modalClose">✕</button>
+    <div id="formContent">
+      <div class="modal__icon">🍳</div>
+      <h2 class="modal__title" id="modalTitle">Join Hearth & Table</h2>
+      <p class="modal__sub">Get started with free recipe access today.</p>
+      <form id="leadForm" novalidate>
+        <div class="form-group"><label for="formName">Full Name *</label><input type="text" id="formName" placeholder="Jane Smith" required /></div>
+        <div class="form-group"><label for="formEmail">Email Address *</label><input type="email" id="formEmail" placeholder="jane@example.com" required /></div>
+        <div class="form-group"><label for="formPhone">Phone Number *</label><input type="tel" id="formPhone" placeholder="(555) 000-0000" required /></div>
+        <div class="form-group"><label for="formMessage">How can we help you?</label><textarea id="formMessage" placeholder="Tell us about your cooking goals..."></textarea></div>
+        <label class="form-consent"><input type="checkbox" id="formConsent" required /> I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and <a href="terms-conditions.html" target="_blank">Terms & Conditions</a>.</label>
+        <button type="submit" class="btn btn--terracotta btn--lg form-submit">Submit →</button>
+      </form>
+    </div>
+    <div class="success-message" id="successMessage">
+      <div class="success-message__icon">🎉</div>
+      <h3 class="success-message__title">We'll Be in Touch!</h3>
+      <p class="success-message__text">Thank you for your interest. Our team will reach out within 24 hours.</p>
+    </div>
+  </div>
+</div>
+<div class="cookie-banner" id="cookieBanner">
+  <div class="cookie-banner__inner">
+    <p class="cookie-banner__text">We use cookies to improve your experience. See our <a href="cookie-policy.html">Cookie Policy</a>.</p>
+    <div class="cookie-banner__actions">
+      <button class="cookie-btn cookie-btn--decline" id="cookieDecline">Decline</button>
+      <button class="cookie-btn cookie-btn--accept" id="cookieAccept">Accept Cookies</button>
+    </div>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

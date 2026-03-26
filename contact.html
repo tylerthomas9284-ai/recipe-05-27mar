@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Hearth & Table</title>
+  <meta name="description" content="Get in touch with the Hearth & Table team. We'd love to hear from you — whether it's a recipe question, partnership inquiry, or just to say hello." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="nav" id="mainNav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">Hearth <span>&</span> Table</a>
+    <div class="nav__links">
+      <a href="index.html" class="nav__link" data-page="index.html">Home</a>
+      <a href="index.html#recipes" class="nav__link">Recipes</a>
+      <a href="index.html#cuisines" class="nav__link">Cuisines</a>
+      <a href="about.html" class="nav__link" data-page="about.html">About</a>
+      <a href="contact.html" class="nav__link nav__link--active" data-page="contact.html">Contact</a>
+    </div>
+    <button class="btn btn--terracotta nav__cta" data-modal="lead" data-context="Join Free">Join Free</button>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav__mobile" id="mobileNav">
+  <button class="nav__mobile-close" id="mobileClose">✕</button>
+  <a href="index.html" class="nav__link">Home</a>
+  <a href="index.html#recipes" class="nav__link">Recipes</a>
+  <a href="index.html#cuisines" class="nav__link">Cuisines</a>
+  <a href="about.html" class="nav__link">About</a>
+  <a href="contact.html" class="nav__link">Contact</a>
+  <button class="btn btn--terracotta" data-modal="lead" data-context="Join Free" style="margin-top:1rem;width:100%;justify-content:center">Join Free</button>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero__content container">
+    <div class="page-hero__eyebrow">We're Here to Help</div>
+    <h1 class="page-hero__title">Let's Talk</h1>
+    <p class="page-hero__sub">Have a question about a recipe, a service inquiry, or just want to say hi? We read every message and typically respond within one business day.</p>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Contact Info -->
+      <div class="fade-up">
+        <h2 class="contact-info__title">Get in Touch</h2>
+        <p>Whether you need recipe help, have a partnership idea, or want to book a cooking class — our team is ready to help.</p>
+
+        <div class="contact-detail">
+          <span class="contact-detail__icon">📞</span>
+          <div>
+            <div class="contact-detail__label">Phone</div>
+            <div class="contact-detail__val">(888) 347-9210</div>
+            <div style="font-size:0.8125rem;color:var(--muted);margin-top:0.25rem">Mon–Fri, 9am–6pm PT</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail__icon">✉️</span>
+          <div>
+            <div class="contact-detail__label">General Inquiries</div>
+            <div class="contact-detail__val">hello@hearthandtable.site</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail__icon">🤝</span>
+          <div>
+            <div class="contact-detail__label">Partnerships & Press</div>
+            <div class="contact-detail__val">partners@hearthandtable.site</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail__icon">🔒</span>
+          <div>
+            <div class="contact-detail__label">Privacy Concerns</div>
+            <div class="contact-detail__val">privacy@hearthandtable.site</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail__icon">📍</span>
+          <div>
+            <div class="contact-detail__label">Mailing Address</div>
+            <div class="contact-detail__val">2418 NW Burnside Rd<br/>Portland, OR 97210</div>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div style="margin-top:2.5rem">
+          <h3 style="font-size:1.125rem;font-weight:700;margin-bottom:1.25rem;color:var(--charcoal)">Frequently Asked Questions</h3>
+          <div style="border-top:1px solid var(--border)">
+            <div style="padding:1rem 0;border-bottom:1px solid var(--border)">
+              <p style="font-weight:700;color:var(--charcoal);margin-bottom:0.375rem;font-size:0.9375rem">Can I submit my own recipe?</p>
+              <p style="font-size:0.875rem;margin:0">Yes! Email your recipe to hello@hearthandtable.site. Our test kitchen reviews all community submissions.</p>
+            </div>
+            <div style="padding:1rem 0;border-bottom:1px solid var(--border)">
+              <p style="font-weight:700;color:var(--charcoal);margin-bottom:0.375rem;font-size:0.9375rem">How do I cancel my subscription?</p>
+              <p style="font-size:0.875rem;margin:0">Log into your account and visit Settings → Billing, or email us and we'll cancel it within 24 hours — no questions asked.</p>
+            </div>
+            <div style="padding:1rem 0">
+              <p style="font-weight:700;color:var(--charcoal);margin-bottom:0.375rem;font-size:0.9375rem">Do you offer gift subscriptions?</p>
+              <p style="font-size:0.875rem;margin:0">Absolutely. Contact us and we'll set up a gift subscription for your recipient — perfect for the home cook in your life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-card fade-up">
+        <h3>Send Us a Message</h3>
+        <p>Fill out the form below and we'll get back to you within one business day.</p>
+        <form id="contactPageForm" novalidate>
+          <div class="form-group"><label for="cpName">Full Name *</label><input type="text" id="cpName" placeholder="Jane Smith" required /></div>
+          <div class="form-group"><label for="cpEmail">Email Address *</label><input type="email" id="cpEmail" placeholder="jane@example.com" required /></div>
+          <div class="form-group"><label for="cpPhone">Phone Number *</label><input type="tel" id="cpPhone" placeholder="(555) 000-0000" required /></div>
+          <div class="form-group">
+            <label for="cpSubject">Subject *</label>
+            <select id="cpSubject" required>
+              <option value="">Select a topic...</option>
+              <option>Recipe Question</option>
+              <option>Subscription & Billing</option>
+              <option>Cooking Classes</option>
+              <option>Partnership / Press</option>
+              <option>Privacy Request</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="cpMessage">Message *</label><textarea id="cpMessage" placeholder="Tell us how we can help..." style="min-height:120px" required></textarea></div>
+          <label class="form-consent"><input type="checkbox" id="cpConsent" required /> I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and <a href="terms-conditions.html" target="_blank">Terms & Conditions</a>.</label>
+          <button type="submit" class="btn btn--terracotta btn--lg" style="width:100%;justify-content:center;margin-top:0.5rem">Send Message →</button>
+        </form>
+        <div id="contactSuccess" style="display:none;text-align:center;padding:2rem 0">
+          <div style="font-size:3rem;margin-bottom:1rem">✅</div>
+          <h3 style="font-family:var(--font-serif);font-size:1.375rem;margin-bottom:0.5rem">Message Sent!</h3>
+          <p>Thank you for reaching out. We'll reply within one business day.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__logo-name">Hearth <span>&</span> Table</div>
+        <p class="footer__tagline">Real Recipes. Real Kitchens. Real Good.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">📸</a>
+          <a href="#" class="footer__social-link">📌</a>
+          <a href="#" class="footer__social-link">f</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__col-title">Recipes</h4>
+        <ul class="footer__links">
+          <li><a href="index.html#recipes" class="footer__link">All Recipes</a></li>
+          <li><a href="index.html#cuisines" class="footer__link">By Cuisine</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__col-title">Company</h4>
+        <ul class="footer__links">
+          <li><a href="about.html" class="footer__link">About Us</a></li>
+          <li><a href="services.html" class="footer__link">Services</a></li>
+          <li><a href="contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__col-title">Contact</h4>
+        <div class="footer__contact-item"><span class="footer__contact-icon">📞</span><div class="footer__contact-text">(888) 347-9210</div></div>
+        <div class="footer__contact-item"><span class="footer__contact-icon">✉️</span><div class="footer__contact-text">hello@hearthandtable.site</div></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2026 Hearth & Table. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="privacy-policy.html" class="footer__legal-link">Privacy Policy</a>
+        <a href="terms-conditions.html" class="footer__legal-link">Terms & Conditions</a>
+        <a href="disclaimer.html" class="footer__legal-link">Disclaimer</a>
+        <a href="cookie-policy.html" class="footer__legal-link">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="leadModal">
+  <div class="modal">
+    <button class="modal__close" id="modalClose">✕</button>
+    <div id="formContent">
+      <div class="modal__icon">🍳</div>
+      <h2 class="modal__title" id="modalTitle">Join Hearth & Table</h2>
+      <p class="modal__sub">Get instant access to thousands of tested recipes.</p>
+      <form id="leadForm" novalidate>
+        <div class="form-group"><label for="formName">Full Name *</label><input type="text" id="formName" placeholder="Jane Smith" required /></div>
+        <div class="form-group"><label for="formEmail">Email Address *</label><input type="email" id="formEmail" placeholder="jane@example.com" required /></div>
+        <div class="form-group"><label for="formPhone">Phone Number *</label><input type="tel" id="formPhone" placeholder="(555) 000-0000" required /></div>
+        <div class="form-group"><label for="formMessage">What kind of recipes interest you?</label><textarea id="formMessage" placeholder="e.g. Quick dinners, healthy meals..."></textarea></div>
+        <label class="form-consent"><input type="checkbox" id="formConsent" required /> I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and <a href="terms-conditions.html" target="_blank">Terms & Conditions</a>.</label>
+        <button type="submit" class="btn btn--terracotta btn--lg form-submit">Get Free Access →</button>
+      </form>
+    </div>
+    <div class="success-message" id="successMessage">
+      <div class="success-message__icon">🎉</div>
+      <h3 class="success-message__title">Welcome to Hearth & Table!</h3>
+      <p class="success-message__text">You're all set. Enjoy unlimited recipe access.</p>
+    </div>
+  </div>
+</div>
+<div class="cookie-banner" id="cookieBanner">
+  <div class="cookie-banner__inner">
+    <p class="cookie-banner__text">We use cookies to improve your experience. See our <a href="cookie-policy.html">Cookie Policy</a>.</p>
+    <div class="cookie-banner__actions">
+      <button class="cookie-btn cookie-btn--decline" id="cookieDecline">Decline</button>
+      <button class="cookie-btn cookie-btn--accept" id="cookieAccept">Accept Cookies</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+<script>
+  // Contact page form handler
+  document.getElementById('contactPageForm')?.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const consent = document.getElementById('cpConsent');
+    if (!consent.checked) { consent.setCustomValidity('Please agree to continue.'); consent.reportValidity(); return; }
+    consent.setCustomValidity('');
+    this.style.display = 'none';
+    document.getElementById('contactSuccess').style.display = 'block';
+  });
+</script>
+</body>
+</html>
